@@ -39,8 +39,10 @@
             </tbody>
         </table>
         <form action="{% url 'deleteObj' %}">
-            <input type="text" value="nombre">
-            <input type="submit" value="borrar" class="btn btn-primary"></td>
+            <input type="submit" value="borrar todo" class="btn btn-primary">
+        </form>
+        <form action="{% url 'insertardato' %}">
+            <input type="submit" value="presione para ingresar un dato" class="btn btn-primary">
         </form>
     </div>
 </body>
